@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 def function(img):
     height,width,channels=img.shape
-    emptylmage=np.zeros((800,800,channels),np.unit8)
+    emptylmage=np.zeros((800,800,channels),np.uint8)
     sh=800/height
     sw=800/width
     for i in range (800):
